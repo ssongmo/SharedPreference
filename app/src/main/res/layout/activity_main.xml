@@ -78,5 +78,14 @@
             android:layout_centerHorizontal="true"
             android:id="@+id/button"
             android:onClick="closeHelp" />
+
+        <TextView
+            android:text="이 화면은 처음 한번만 뜹니다."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_above="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="57dp" />
     </RelativeLayout>
 </FrameLayout>
